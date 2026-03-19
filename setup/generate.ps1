@@ -135,7 +135,7 @@ $archs |% {
         write-host -fore red $out
         break;
     }
-
+    write-host "Test the new code"
     write-host -fore cyan "Installer Created: $scriptLocation\$outputName-$version-$arch.msi"
 }
 if( $LASTEXITCODE) {
